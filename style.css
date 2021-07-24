@@ -1,0 +1,52 @@
+body{
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+  background-color:hsl(185, 75%, 39%);
+  background-image:
+    url("itop.svg"),
+    url("ibottom.svg");
+  background-repeat: no-repeat,no-repeat;
+}
+h1{
+  font-size: 18px;
+  font-weight: 700;
+  color: #00000c;
+}
+span{
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+}
+/* card */
+.card{
+  border-radius: 5%;
+  display: inline-block;
+  margin: 23% 37%;
+  position: relative;
+}
+.card-body{
+  position: relative;
+  padding: 0;
+}
+.mp{
+  position: relative;
+  bottom: 45px;
+}
+/* images */
+.card-img-top{
+  object-fit: cover;
+}
+.hisimage{
+  border-radius: 100%;
+  border: 5px solid #ffffff;
+  position:relative;
+}
+/* writtenportion */
+.about{
+  margin-top: 20px;
+}
+.ok{
+  padding: 0px 30px;
+}
